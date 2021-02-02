@@ -1,0 +1,11 @@
+data
+runs
+scripts
+notebooks
+nohup.out
+.DS_Store
+__pycache__/
+model/config.yml
+dataset/tmp_csvs
+.ipynb_checkpoints
+weights

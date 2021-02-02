@@ -1,0 +1,26 @@
+batch_size: 128
+crop: 224
+resize: 256
+csv:
+full:
+    all: 'dataset/DewTrain/train.csv'
+    each_1000: 'dataset/DewTrain/train_each_1000.csv'
+    test: 'dataset/DewTest/test.csv'
+    valid: 'dataset/DewValid/valid.csv'
+person:
+    all: 'dataset/DewTrain/train_person_fullbody.csv'
+    test: 'dataset/DewTest/test_person_fullbody.csv'
+    valid: 'dataset/DewValid/valid_person_fullbody.csv'
+vehicle:
+    all: 'dataset/DewTrain/train_vehicle.csv'
+    test: 'dataset/DewTest/test_vehicle.csv'
+    valid: 'dataset/DewValid/valid_vehicle.csv'
+class_num: 70
+learning_rate:
+    base: 0.001
+    fc: 0.01
+    coral: 0.0005
+    reg: 0.0001
+momentum: 0.9
+epochs: 300
+seed: 1
